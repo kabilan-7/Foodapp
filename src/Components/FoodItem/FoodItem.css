@@ -61,3 +61,16 @@
 .food-item-counter img{
     width: 30px;
 }
+.food-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .food-item:hover .add {
+    transform: scale(1.1);
+  }
+  
+  .food-item:hover .food-item-counter img {
+    transform: scale(1.1);
+  }
